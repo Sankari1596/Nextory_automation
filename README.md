@@ -10,7 +10,7 @@ Xcode: From App Store(For Mac users only)
 uiautomator2@3.7.3
 xcuitest@7.24.0
 **IDE**
-IntelliJ: https://www.jetbrains.com/idea/download
+IntelliJ Community edition: https://www.jetbrains.com/idea/download
 
 ---
 
@@ -22,6 +22,8 @@ IntelliJ: https://www.jetbrains.com/idea/download
 - **Android Studio / AVD** or a real Android device
 - **Node.js & Appium Server**
 - **Maven** (Dependency management)
+- **BrowserStack App Automate** (Cloud-based testing)
+- **Allure-Reports** (For Reporting)
 
 ** Project Structure
 nextory_assignment/
@@ -56,3 +58,10 @@ TestNG XML
 -->Different XMLs to execute Sanity, Regression, E2E test cases
 Drivers
 -->To store the drivers for different browsers and modheaders
+
+🌐 Running Tests on BrowserStack
+**Create a BrowserStack Account**
+-Sign up at https://www.browserstack.com/users/sign_up
+-Get your Username and Access Key from BrowserStack Automate Dashboard
+-Upload app to get the appUrl
+-Add desired capabilities in the test code
