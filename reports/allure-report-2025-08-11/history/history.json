@@ -1,0 +1,1 @@
+{"ebfcc95d560e14d599ec704bdce92e66":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"6c38dcf27b942800","status":"broken","statusDetails":"Cannot find expected element: //android.view.View[@resource-id=\"Player.PauseButton\"]/android.widget.Button","time":{"start":1754919792405,"stop":1754919909912,"duration":117507}}]}}
