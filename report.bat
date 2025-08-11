@@ -1,0 +1,9 @@
+@echo off
+echo Running Maven tests...
+mvn clean test -PappTests
+
+echo Generating Allure Report...
+allure generate allure-results --clean -o allure-report
+
+echo Opening Allure Report...
+start allure-report\index.html
